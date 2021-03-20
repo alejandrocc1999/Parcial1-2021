@@ -15,8 +15,9 @@ namespace Parcial1_VictorCastro.Models
         [Required(ErrorMessage = "You must enter the field {0}")]
         public string Description { get; set; }
 
+        [DataType(DataType.Currency)]  
         [Required(ErrorMessage = "You must enter the field {0}")]
-        public int Price { get; set; }
+        public float Price { get; set; }
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = false)]

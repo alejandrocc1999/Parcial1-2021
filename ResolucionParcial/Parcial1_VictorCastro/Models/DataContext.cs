@@ -12,5 +12,7 @@ namespace Parcial1_VictorCastro.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Parcial1_VictorCastro.Models.Product> Products { get; set; }
     }
 }

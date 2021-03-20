@@ -15,5 +15,11 @@ namespace Parcial1_VictorCastro.Controllers
             return a + b;
         }
 
+        [HttpPost]
+        public int Suma2([FromBody] int a, int b)
+        {
+            return a + b;
+        }
+
     }
 }
